@@ -4,7 +4,7 @@
 Asking and answering questions are inseparable parts of human social life. The primary purposes of asking questions are to gain knowledge or request help which has been the subject of question-answering studies. However, questions can also reflect negative intentions and include implicit offenses, such as highlighting one's lack of knowledge or bolstering an alleged superior knowledge, which can lead to conflict in conversations; yet has been scarcely researched. This paper is the first study to introduce a dataset (Question Intention Dataset) that includes questions with positive/neutral and negative intentions and the underlying intention categories within each group. We further conduct a meta-analysis to highlight tacit and apparent intents. We also propose a classification method using Transformers augmented by TF-IDF-based features and report the results of several models for classifying the main intention categories. We aim to highlight the importance of taking intentions into account, especially implicit and negative ones, to gain insight into conflict-evoking questions and better understand human-human communication on the web for NLP applications.
 
 ## Question Intention Dataset
-This repository contains the Question Intention Dataset published in ACL 2023 (_to be released by the end of August 2023_).
+This repository contains the Question Intention Dataset published in ACL 2023 (To ensure privacy compliance, this dataset is accessible upon request. Kindly [send us](mailto:kourosh.meshgi@riken.jp) an email to proceed).
 The dataset aims to analyze the perceived intentions behind questions, both positive and negative ones, from the reader's perspective. To investigate the underlying intention categories, we have collected a diverse set of questions from Wikipedia discussion pages. These pages provide a valuable source of real-world interaction, where questions are asked with the general goal of improving Wiki pages. However, this goal may, at times, be influenced by a personal agenda, such as showing off knowledge or disqualifying someone's work by asking questions. Therefore, studying Wikipedia discussions can serve as a plausible resource for our research.
 
 Our dataset is built on the [Conversation Gone Awry dataset](https://convokit.cornell.edu/documentation/awry.html), encompassing the conversations on Wikipedia Talk Pages. From this dataset,
@@ -28,6 +28,3 @@ If you find this project useful in your research or work, please consider citing
       year={2023}
 }
 ```
-
-## Contact Us
-For further inquiries reach us at [maryam.mirzaei@riken.jp](mailto:maryam.mirzaei@riken.jp).
